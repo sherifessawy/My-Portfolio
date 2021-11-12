@@ -54,7 +54,7 @@ export const CarouselItem = styled.div`
     background: #0E131F;
     padding: 4px;
     align-content: start;
-    scroll-snap-align: start;
+    scroll-snap-align: start; 
     border-radius: 3px;
     overflow: visible;
     position: relative;
