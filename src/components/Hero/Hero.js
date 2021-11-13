@@ -1,23 +1,40 @@
-import React from 'react';
+import React, {useState, useLayoutEffect}  from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, InvisibleBtn } from './HeroStyles';
 
-const Hero = (props) => (
-  <Section row nopadding>
-    <LeftSection>
-      <SectionTitle main center>
-        Hi, I'm Sherif <br />
-        Frontend web dev
-      </SectionTitle>
-      <SectionText>
-        I help customers all over the world build their web apps. 
-        Specilaized in creating UI with React and can provide limited Backend services using Firebase.
-      </SectionText>
-      <Button onClick={props.handleClick}>Learn More</Button>
-    </LeftSection>
-  </Section>
-)
+const Hero = (props) => {
+  const [offset, setOffset] = useState(false);
 
+  useLayoutEffect(() => {
+    window.onscroll = () => {
+      if(window.pageYOffset>570){
+        setOffset(true)
+      } else {
+        setOffset(false)
+    }}
+  }, [])
+  
+  const handleClick = ()=>{
+    console.log('hello')
+  }
+
+  return (
+    <Section row nopadding>
+      <LeftSection>
+        <SectionTitle main center>
+          Hi, I'm Sherif <br />
+          Frontend web dev
+        </SectionTitle>
+        <SectionText>
+          I help customers all over the world build their web apps. 
+          I'm specilaized in creating UI with React and can provide Backend services with Firebase.
+        </SectionText>
+        <Button onClick={handleClick}>Learn More</Button>
+        <InvisibleBtn offset={offset} onClick={handleClick}>Learn<br/>More</InvisibleBtn>
+      </LeftSection>
+    </Section>
+  )
+}
 export default Hero;
