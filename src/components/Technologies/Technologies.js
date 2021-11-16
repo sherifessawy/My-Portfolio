@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiPython } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -35,18 +35,18 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
+      <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Python developer</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Python
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
     </List>
     <SectionDivider colorAlt />
   </Section>

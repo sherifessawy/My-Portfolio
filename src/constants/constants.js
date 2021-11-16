@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Watchme',
-    description: "A Netflix-clone created using React and Firebase. The web app is fully created by using React Compound Components design pattern combining it with styled components. Modern ES6 Javascript tools are utilized along with react hooks and context to output reusable, easily readable, react components. Firebase is used for providing backend services for this web app. Cloud Firestore is used as the database and Firebase authentication is used for signing in, signing up and monitoring user auth state.",
+    description: "A Netflix-clone created using React and Firebase. React Compound Components design pattern is utilized combined with styled components. React hooks and React context API were used to produce reusable, easily readable, react functional components. Cloud Firestore is used as the database and Firebase authentication is used for user signing up, signing in and monitoring user auth state.",
     image: '/images/1.jpg',
     tags: ['React', 'Firebase', 'CSS', 'gh-pages'],
     visit: 'https://sherifessawy.github.io/watchme/',
