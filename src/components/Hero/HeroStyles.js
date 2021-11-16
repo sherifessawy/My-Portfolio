@@ -32,7 +32,7 @@ export const InvisibleBtn = styled.button`
   opacity: 0.85;
   animation-name: fadeInOpacity;
 	animation-timing-function: ease-in;
-	animation-duration: 0.5s;
+	animation-duration: 0.6s;
 
   &:hover {
     opacity: 1;
