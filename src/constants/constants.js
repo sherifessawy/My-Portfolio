@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Instgram clone',
+    description: "The website is fully functional. you can sign up, sign in, follow and unfollow users, like and comment on photos and you will get suggestions for people you can follow based on users that are signed up. The website was fully developed using React.js for the front end design and Firebase for the back end design.",
+    image: '/images/5.jpg',
+    tags: ['React', 'Firebase', 'CSS', 'TailwindCSS', 'gh-pages'],
+    visit: 'https://sherifessawy.github.io/instgram/',
+    source: 'https://github.com/sherifessawy/instgram',
+    id: 0,
+  },
+  {
     title: 'Watchme',
     description: "A Netflix-clone created using React and Firebase. React Compound Components design pattern is utilized combined with styled components. React hooks and React context API were used to produce reusable, easily readable, react functional components. Cloud Firestore is used as the database and Firebase authentication is used for user signing up, signing in and monitoring user auth state.",
     image: '/images/1.jpg',
@@ -7,15 +16,6 @@ export const projects = [
     visit: 'https://sherifessawy.github.io/watchme/',
     source: 'https://github.com/sherifessawy/watchme',
     id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"sample E-commerce web app with some basic functionality like: logging in/out, favoriting items, adding items to cart and placing orders",
-    image: '/images/2.jpg',
-    tags: ['React', 'CSS', 'HTML', 'gh-pages'],
-    visit: 'https://sherifessawy.github.io/e-commerce/',
-    source: 'https://github.com/sherifessawy/e-commerce',
-    id: 1,
   },
   {
     title: 'Simulator',
@@ -27,13 +27,13 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Games',
-    description: "blank",
-    image: '/images/4.jpg',
-    tags: ['blank', 'blank', 'blank'],
-    visit: '',
-    source: '',
-    id: 3,
+    title: 'E-Commerce',
+    description:"sample E-commerce web app with some basic functionality like: logging in/out, favoriting items, adding items to cart and placing orders",
+    image: '/images/2.jpg',
+    tags: ['React', 'CSS', 'HTML', 'gh-pages'],
+    visit: 'https://sherifessawy.github.io/e-commerce/',
+    source: 'https://github.com/sherifessawy/e-commerce',
+    id: 1,
   },
 ];
 

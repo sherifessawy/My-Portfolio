@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiPython } from 'react-icons/di';
+import { DiFirebase, DiReact, DiPython, DiGit, DiHtml5, DiCss3, DiJavascript } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -14,12 +14,14 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiReact size="3rem" />
+          <DiJavascript size="3rem" />
+          <DiHtml5 size="3rem" />
+          <DiCss3 size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            React, JS, HTML, CSS, TailwindCSS and Styled-components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,12 +40,13 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiPython size="3rem" />
+          <DiGit size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Python developer</ListTitle>
+          <ListTitle>Others</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Python
+            Python, git and github
           </ListParagraph>
         </ListContainer>
       </ListItem>

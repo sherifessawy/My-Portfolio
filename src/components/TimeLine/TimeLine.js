@@ -47,9 +47,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I believe that a human being is not meant to stay in one place all their life. 
-        I have decided to shift my career to being a Web developer as it achives for me the two things 
-        I want the most for my professional life, freedom and joy. 
+        I am a passionate frontend web developer with a cross cultural experience on the technical and non technical levels. 
+        I have always found pleasure in working in a diverse environment where I found room to excel and show my potential. 
+        I have been interested in software development, especially in web development and I started my Journey early after graduating in 2017 
+        with a BSc in Engineering
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={setActiveCarouselItem}>
         <>
