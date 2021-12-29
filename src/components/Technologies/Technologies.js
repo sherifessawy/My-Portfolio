@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiPython, DiGit, DiHtml5, DiCss3, DiJavascript } from 'react-icons/di';
+import { DiFirebase, DiReact, DiPython, DiGit, DiHtml5, DiCss3, DiJavascript, DiNodejs } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -28,6 +28,7 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
+          <DiNodejs size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>

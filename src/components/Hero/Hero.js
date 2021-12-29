@@ -31,8 +31,8 @@ const Hero = (props) => {
           I help customers all over the world build their web apps. 
           I'm specilaized in creating UI with React and can provide Backend services with Firebase.
         </SectionText>
-        <Button onClick={handleClick}>Learn More</Button>
-        <InvisibleBtn offset={offset} onClick={handleClick}>Learn<br/>More</InvisibleBtn>
+        <Button>Learn More</Button>
+        {/* <InvisibleBtn offset={offset}>Learn<br/>More</InvisibleBtn> */}
       </LeftSection>
     </Section>
   )
